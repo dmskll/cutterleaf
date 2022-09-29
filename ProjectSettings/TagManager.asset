@@ -6,6 +6,7 @@ TagManager:
   tags:
   - border
   - Bird
+  - circle
   layers:
   - Default
   - TransparentFX

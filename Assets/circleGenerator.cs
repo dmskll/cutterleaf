@@ -5,6 +5,10 @@ using UnityEngine;
 public class circleGenerator : MonoBehaviour
 {
     public Color color1, color2;
+    public Transform objective;
+    private Vector3 direction;
+
+    public float speed;
     public float radium, scale_x, scale_y;
     public int num;
     public GameObject parts;
@@ -31,7 +35,6 @@ public class circleGenerator : MonoBehaviour
         float ang = 360 / num;
         for (int i = 0; i < num; i++)
         {
-
             y = Mathf.Sin(i * ang * Mathf.Deg2Rad) * radium;
             x = Mathf.Cos(i * ang * Mathf.Deg2Rad) * radium;
             var newpart1 = Instantiate(parts, new Vector2(this.transform.position.x + x, this.transform.position.y + y), Quaternion.identity);
@@ -43,12 +46,13 @@ public class circleGenerator : MonoBehaviour
             newpart1.transform.localScale = new Vector3(scale_x, scale_y, newpart1.transform.localScale.z);
 
             elements[i] = newpart1;
-
-            
-
-
-
         }
+
+        if (objective != null)
+        {
+            direction = (objective.position - transform.position).normalized;
+        }
+
     }
 
     // Update is called once per frame
@@ -59,6 +63,10 @@ public class circleGenerator : MonoBehaviour
 
     private void FixedUpdate()
     {
-        this.transform.Rotate(new Vector3(0, 0, 0.2f));
+        transform.Rotate(new Vector3(0, 0, 0.2f), Space.World);
+        if(objective != null)
+        {
+            transform.position += new Vector3(direction.x, direction.y, 0) * speed;
+        }
     }
 }

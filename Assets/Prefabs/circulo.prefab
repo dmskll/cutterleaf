@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2428582906703990816}
   m_Layer: 0
   m_Name: circulo
-  m_TagString: Untagged
+  m_TagString: circle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,6 +45,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0, g: 0, b: 0, a: 0}
   color2: {r: 0, g: 0, b: 0, a: 0}
+  objective: {fileID: 0}
+  speed: 0
   radium: 6
   scale_x: 0.08
   scale_y: 0.08
