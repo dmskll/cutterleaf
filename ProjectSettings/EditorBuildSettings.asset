@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: f2a39a5d6b2c25748bf10db237a19be9
+  - enabled: 1
+    path: Assets/Scenes/intro.unity
+    guid: 6277eab52832ce841a307b501d27202d
+  - enabled: 1
+    path: Assets/Scenes/birth.unity
+    guid: a982e83fd38b6784f8d29b6b20c0da9b
+  - enabled: 1
+    path: Assets/Scenes/garden.unity
+    guid: b5bb3da2361151e49aaf077493e6f323
+  - enabled: 1
+    path: Assets/Scenes/nest.unity
+    guid: a8d9930f9f339e6428f990ca150ab79c
+  - enabled: 1
+    path: Assets/Scenes/flower.unity
+    guid: 914e8e28928885b46828bc74a02ec3fc
+  - enabled: 1
+    path: Assets/Scenes/leafcut.unity
+    guid: 1ec1f2cd4ab5a3440a8aeced6c3d0236
+  - enabled: 1
+    path: Assets/Scenes/eggs.unity
+    guid: 6b3879b6b4d0c3c4c9e0b445098c438c
+  - enabled: 1
+    path: Assets/Scenes/end.unity
+    guid: bfe4c2fb804183648a646d8049744ce7
+  m_configObjects: {}

@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: fe87e5d5752c1224da93cffe38c213a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3937925674323020262
+    second: bancal_0
+  - first:
+      213: -2818818071531040758
+    second: bancal_1
+  - first:
+      213: 3053063127246525075
+    second: bancal_2
+  - first:
+      213: -698922027748128217
+    second: bancal_3
+  - first:
+      213: 86238016746699286
+    second: bancal_4
+  - first:
+      213: 3681262856157951705
+    second: bancal_5
+  - first:
+      213: -295403132752920716
+    second: bancal_6
+  - first:
+      213: -7761391423861345830
+    second: bancal_7
+  - first:
+      213: 4345223613115539715
+    second: bancal_8
+  - first:
+      213: -3497894083902921238
+    second: bancal_9
+  - first:
+      213: 4278308506895165652
+    second: bancal_10
+  - first:
+      213: -4364969681936951346
+    second: bancal_11
+  - first:
+      213: -5838063336093405212
+    second: bancal_12
+  - first:
+      213: 747571574928595797
+    second: bancal_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bancal_0
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 3326
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e90ae9698256a630800000000000000
+      internalID: 3937925674323020262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_1
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2924
+        width: 427
+        height: 534
+      alignment: 9
+      pivot: {x: 0.54533714, y: 0.040634785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00d0ff06eb81e8d0800000000000000
+      internalID: -2818818071531040758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_2
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 2654
+        width: 1132
+        height: 1153
+      alignment: 9
+      pivot: {x: 0.60208744, y: 0.021372998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3925f580db8ae5a20800000000000000
+      internalID: 3053063127246525075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_3
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 3215
+        width: 249
+        height: 268
+      alignment: 9
+      pivot: {x: 0.08298428, y: 0.8874503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a806a6e1eec46f0800000000000000
+      internalID: -698922027748128217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 3255
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a3252f401623100800000000000000
+      internalID: 86238016746699286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_6
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 3008
+        width: 138
+        height: 109
+      alignment: 9
+      pivot: {x: 0.9376203, y: 0.90080273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f79b67a6486ebf0800000000000000
+      internalID: -295403132752920716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_7
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 2765
+        width: 123
+        height: 145
+      alignment: 9
+      pivot: {x: 0.9370137, y: 0.07873619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad13bf12f9ff94490800000000000000
+      internalID: -7761391423861345830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_8
+      rect:
+        serializedVersion: 2
+        x: 2807
+        y: 2648
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3012469aad55d4c30800000000000000
+      internalID: 4345223613115539715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_9
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 2004
+        width: 407
+        height: 351
+      alignment: 9
+      pivot: {x: 0.5165627, y: 0.12870036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5a6030ddbf47fc0800000000000000
+      internalID: -3497894083902921238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_10
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2050
+        width: 155
+        height: 203
+      alignment: 9
+      pivot: {x: 0.741537, y: 0.10600393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8a4096bea9f5b30800000000000000
+      internalID: 4278308506895165652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_11
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1494
+        width: 736
+        height: 897
+      alignment: 9
+      pivot: {x: 0.31965372, y: 0.020024566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec75ccc63338c63c0800000000000000
+      internalID: -4364969681936951346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_12
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 1590
+        width: 172
+        height: 196
+      alignment: 9
+      pivot: {x: 0.28233728, y: 0.21348417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efabe3c3580bfea0800000000000000
+      internalID: -5838063336093405212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bancal_13
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 552
+        width: 2499
+        height: 615
+      alignment: 9
+      pivot: {x: 0.49194032, y: 0.25765163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b5cc7f268ef5a00800000000000000
+      internalID: 747571574928595797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
