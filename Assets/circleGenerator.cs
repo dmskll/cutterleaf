@@ -61,6 +61,18 @@ public class circleGenerator : MonoBehaviour
         
     }
 
+    private void updateElements()
+    {
+        for (int i = 0; i < num; i++)
+        {
+
+
+            elements[i].GetComponent<SpriteRenderer>().color = color1;
+            elements[i].transform.parent = gameObject.transform;
+            elements[i].transform.localScale = new Vector3(scale_x, scale_y, elements[i].transform.localScale.z);
+        }
+    }
+
     private void FixedUpdate()
     {
         transform.Rotate(new Vector3(0, 0, 0.2f), Space.World);
@@ -68,5 +80,8 @@ public class circleGenerator : MonoBehaviour
         {
             transform.position += new Vector3(direction.x, direction.y, 0) * speed;
         }
+
+        updateElements();
+
     }
 }
