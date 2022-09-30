@@ -330,6 +330,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   female: {fileID: 1235205554}
   male: {fileID: 960261760}
+  circle_spawn: {fileID: 460180003}
+  circle: {fileID: 2428582906703990847, guid: 25941e0db34e2da46834054846fed3ba, type: 3}
+--- !u!1 &460180003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 460180004}
+  m_Layer: 0
+  m_Name: circle spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &460180004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460180003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.61, y: -0.23221493, z: -60.952065}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &480860472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -425,7 +457,7 @@ PrefabInstance:
     - target: {fileID: 7622635546725294713, guid: f81b705d241e3444eb7dd0395c6f88df,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7622635546725294719, guid: f81b705d241e3444eb7dd0395c6f88df,
         type: 3}
@@ -559,49 +591,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1921491783}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1364929373 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2428582906703990847, guid: 25941e0db34e2da46834054846fed3ba,
-    type: 3}
-  m_PrefabInstance: {fileID: 1543290958}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &1364929376
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364929373}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.2
---- !u!50 &1364929377
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364929373}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &1543290958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -732,7 +721,7 @@ PrefabInstance:
     - target: {fileID: 2428582906703990847, guid: 25941e0db34e2da46834054846fed3ba,
         type: 3}
       propertyPath: m_Name
-      value: 1
+      value: prueba circulo
       objectReference: {fileID: 0}
     - target: {fileID: 2428582906703990847, guid: 25941e0db34e2da46834054846fed3ba,
         type: 3}
@@ -927,7 +916,7 @@ PrefabInstance:
     - target: {fileID: 7622635546725294713, guid: f81b705d241e3444eb7dd0395c6f88df,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7622635546725294719, guid: f81b705d241e3444eb7dd0395c6f88df,
         type: 3}
