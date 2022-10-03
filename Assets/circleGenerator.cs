@@ -5,6 +5,7 @@ using UnityEngine;
 public class circleGenerator : MonoBehaviour
 {
     public Color color1, color2;
+    public Color[] gradient = new Color[6];
     public Transform objective;
     private Vector3 direction;
 
@@ -12,6 +13,7 @@ public class circleGenerator : MonoBehaviour
     public float radium, scale_x, scale_y;
     public int num;
     public GameObject parts;
+    public bool not_update_color;
 
     private GameObject[] elements;
 
@@ -40,6 +42,7 @@ public class circleGenerator : MonoBehaviour
             var newpart1 = Instantiate(parts, new Vector2(this.transform.position.x + x, this.transform.position.y + y), Quaternion.identity);
             float angle = Mathf.Atan2(y, x) * Mathf.Rad2Deg + 90;
 
+            newpart1.name = newpart1.name + i;
             newpart1.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
             newpart1.GetComponent<SpriteRenderer>().color = color1;
             newpart1.transform.parent = gameObject.transform;
@@ -65,9 +68,8 @@ public class circleGenerator : MonoBehaviour
     {
         for (int i = 0; i < num; i++)
         {
-
-
-            elements[i].GetComponent<SpriteRenderer>().color = color1;
+            if(!not_update_color)
+                elements[i].GetComponent<SpriteRenderer>().color = color1;
             elements[i].transform.parent = gameObject.transform;
             elements[i].transform.localScale = new Vector3(scale_x, scale_y, elements[i].transform.localScale.z);
         }

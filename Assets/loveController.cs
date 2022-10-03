@@ -71,7 +71,7 @@ public class loveController : MonoBehaviour
             }
             else if(score < 250)
             {
-                cd_spawn = Random.Range(5, 15) / 10.0f;
+                cd_spawn = Random.Range(5, 10) / 10.0f;
             }
         }
         else
